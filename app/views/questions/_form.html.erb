@@ -12,14 +12,18 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :body %><br>
+    <%= f.label :Enunciado %><br>
     <%= f.text_field :body %>
   </div>
-  <div class="field">
-    <%= f.label :category_id %><br>
-    <%= f.collection_select(:category_id, Category.all, :id, :name) %>
+  <div class="form-group">
+    <%= f.label :"Categoria" %><br>
+    <%= f.collection_select(:category_id, Category.all, :id, :name,  {}, {class: "form-control"}) %>
   </div>
+
+
   <div class="actions">
     <%= f.submit %>
   </div>
+
+
 <% end %>
