@@ -1,6 +1,6 @@
+<%= render 'navbar_categories' %>
 <p id="notice"><%= notice %></p>
 <p></p>
-
 <div class="container">
   <div class="page-header">
   	<h1>Categoria</h1>
@@ -9,12 +9,10 @@
   <strong>Nome:</strong>
   <%= @category.name %>
 </p>
-
 <p>
   <strong>Descrição:</strong>
   <%= @category.description %>
 </p>
-
 <%= link_to 'Editar', edit_category_path(@category) %> |
 <%= link_to 'Voltar', categories_path %>
 </div>

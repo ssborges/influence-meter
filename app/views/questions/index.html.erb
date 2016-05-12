@@ -1,12 +1,16 @@
+<%= render 'navbar_questions' %>
 <p id="notice"><%= notice %></p>
 
-<h1>Listing Questions</h1>
+<div class="container">
+  <div class="page-header">
+<h1>Questões Cadastradas</h1>
+</div>
 
-<table>
+<table class="table table-striped">
   <thead>
     <tr>
-      <th>Body</th>
-      <th>Category</th>
+      <th>Enunciado</th>
+      <th>Categoria</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -16,9 +20,9 @@
       <tr>
         <td><%= question.body %></td>
         <td><%= question.category.name %></td>
-        <td><%= link_to 'Show', question %></td>
-        <td><%= link_to 'Edit', edit_question_path(question) %></td>
-        <td><%= link_to 'Destroy', question, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Mostrar', question %></td>
+        <td><%= link_to 'Editar', edit_question_path(question) %></td>
+        <td><%= link_to 'Excluir', question, method: :delete, data: { confirm: 'Você tem certeza que deseja excluir esta questão?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -26,4 +30,9 @@
 
 <br>
 
-<%= link_to 'New Question', new_question_path %>
+<%= link_to 'Nova Questão', new_question_path %> |
+  <%= link_to 'Voltar', home_index_path %>
+
+  <!-- container end -->
+</div>
+

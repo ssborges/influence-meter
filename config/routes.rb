@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
+  get 'home/index'
+
   resources :questions
   resources :categories
+  resources :teste
   get 'home/index'
 
   # The priority is based upon order of creation: first created -> highest priority.

@@ -1,3 +1,4 @@
+<%= render 'navbar_categories' %>
 <p id="notice"><%= notice %></p>
 
 <div class="container">
@@ -21,7 +22,7 @@
         <td><%= category.description %></td>
         <td><%= link_to 'Mostrar', category %></td>
         <td><%= link_to 'Editar', edit_category_path(category) %></td>
-        <td><%= link_to 'Excluir', category, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Excluir', category, method: :delete, data: { confirm: 'Você tem certeza que deseja excluir esta categoria?' } %></td>
       </tr>
       <% end %>
     </tbody>
