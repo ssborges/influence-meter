@@ -1,8 +1,13 @@
 Rails.application.routes.draw do
+  get 'management/index'
+
+  get 'administration/index'
+
   get 'home/index'
 
   resources :questions
   resources :categories
+  resources :administration
   resources :teste
   get 'home/index'
 

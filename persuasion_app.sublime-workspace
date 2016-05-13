@@ -1,0 +1,302 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"dro",
+				"dropdown-menu"
+			],
+			[
+				"cate",
+				"category"
+			],
+			[
+				"id",
+				"id"
+			],
+			[
+				"ca",
+				"category_id"
+			],
+			[
+				"cat",
+				"category_id"
+			],
+			[
+				"categ",
+				"Category"
+			],
+			[
+				"cont",
+				"controller"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/views/administration/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 972,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<div  class=\"navbar navbar-default\">\n    <div  class=\"container-fluid\">\n        <div  class=\"navbar-header\">\n            <button type=\"button\" class=\"navbar-toggle  collapsed\"  data-\ntoggle=\"collapse\" data-target=\"#collapibleMenu\">\n                <span class=\"icon-bar\"></span>\n                <span class=\"icon-bar\"></span>\n                <span class=\"icon-bar\"></span>\n            </button>\n            <a class=\"navbar-brand\"> Perguntador </a>\n        </div>\n        <div  class=\"collapse navbar-collapse\"  id=\"collapibleMenu\">\n            <ul class=\"nav  navbar-nav  navbar-right\">\n                <li><a  href=\"#\"><%= link_to 'Administração', administration_index_path %></a></li>\n            <li><a  href=\"#\">CAED</a></li>\n            <li><a  href=\"#\">Ajuda</a></li>\n          </ul>\n        </div>\n    </div>\n</div>\n<p></p>\n<div class=\"container\">\n	<div class=\"page-header\">\n		<h1>Teste de Persuasão</h1>\n	</div>\n	<div>\n		<a href=\"#\">Responder Teste</a>\n	</div>\n",
+			"file": "app/views/home/index.html.erb",
+			"file_size": 929,
+			"file_write_time": 1463078612000000,
+			"settings":
+			{
+				"buffer_size": 970,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/simone/projects/persuasion_app/app/views/home/administrador.html.erb",
+		"/home/simone/projects/persuasion_app/app/views/home/index.html.erb",
+		"/home/simone/projects/persuasion_app/app/views/questions/_navbar_questions.html.erb",
+		"/home/simone/projects/persuasion_app/config/routes.rb",
+		"/home/simone/projects/persuasion_app/app/views/teste/index.html.erb",
+		"/home/simone/projects/persuasion_app/app/models/category.rb",
+		"/home/simone/projects/persuasion_app/app/views/questions/index.html.erb",
+		"/home/simone/projects/persuasion_app/app/views/categories/show.html.erb",
+		"/home/simone/projects/persuasion_app/app/views/questions/show.html.erb",
+		"/home/simone/projects/persuasion_app/app/views/questions/edit.html.erb",
+		"/home/simone/projects/persuasion_app/config/environments/production.rb",
+		"/home/simone/projects/persuasion_app/app/views/categories/new.html.erb",
+		"/home/simone/projects/persuasion_app/app/views/questions/new.html.erb",
+		"/home/simone/projects/persuasion_app/app/views/categories/edit.html.erb",
+		"/home/simone/projects/persuasion_app/app/views/categories/index.html.erb",
+		"/home/simone/projects/persuasion_app/app/views/questions/_form.html.erb",
+		"/home/simone/projects/persuasion_app/app/views/categories/_form.html.erb",
+		"/home/simone/projects/persuasion_app/app/views/categories/_navbar_categories.html.erb",
+		"/home/simone/projects/persuasion_app/app/assets/stylesheets/application.scss",
+		"/home/simone/projects/persuasion_app/app/assets/javascripts/application.js",
+		"/home/simone/projects/persuasion_app/Gemfile",
+		"/home/simone/projects/persuasion_app/app/assets/stylesheets/application.css.scss",
+		"/home/simone/projects/garantia contra a bosta do git/application.css",
+		"/home/simone/projects/persuasion_app/app/assets/stylesheets/main.css.scss",
+		"/home/simone/projects/persuasion_app/app/assets/stylesheets/home.scss",
+		"/home/simone/projects/persuasion_app/app/controllers/questions_controller.rb",
+		"/home/simone/projects/persuasion_app/app/models/question.rb",
+		"/home/simone/projects/exemplo bkp.rhtml",
+		"/home/simone/projects/backup da home da questao.txt",
+		"/home/simone/projects/passos app",
+		"/home/simone/projects/persuasion_app/app/controllers/categories_controller.rb",
+		"/home/simone/projects/persuasion_app/app/controllers/application_controller.rb",
+		"/home/simone/projects/persuasion_app/db/migrate/20160509212315_create_questions.rb",
+		"/home/simone/projects/persuasion_app/db/migrate/20160509201630_create_categories.rb",
+		"/home/simone/projects/persuasion_app/config/database.yml",
+		"/home/simone/projects/influence_app/app/views/questions/_form.html.erb",
+		"/home/simone/projects/influence_app/db/migrate/20160509141305_create_questions.rb",
+		"/home/simone/projects/influence_app/db/migrate/20160509134421_create_categories.rb",
+		"/home/simone/projects/influence_app/app/controllers/categories_controller.rb",
+		"/home/simone/projects/tentativas.txt",
+		"/home/simone/projects/influence_app/app/controllers/questions_controller.rb",
+		"/home/simone/projects/influence_app/app/models/question.rb",
+		"/home/simone/projects/influence_app/app/models/category.rb",
+		"/home/simone/projects/influence_app/app/views/questions/new.html.erb",
+		"/home/simone/projects/influence_app/config/routes.rb",
+		"/home/simone/projects/SurveyApp/survey/config/routes.rb",
+		"/home/simone/projects/SurveyApp/survey/app/views/survey/index.html.erb",
+		"/home/simone/projects/Dados sites/index2.html",
+		"/home/simone/Dropbox/----------- Review -----------.txt",
+		"/home/simone/Dropbox/I have read that usually the literature proposes.txt",
+		"/home/simone/projects/SurveyApp/survey/db/migrate/20160504161610_create_quizzs.rb",
+		"/home/simone/projects/SurveyApp/survey/app/models/quizz.rb",
+		"/home/simone/projects/SurveyApp/survey/config/database.yml",
+		"/home/simone/projects/SurveyApp/survey/app/views/home/index.html.erb",
+		"/home/simone/projects/survey/SurveyApp/app/models/participant.rb",
+		"/home/simone/Documents/Notas teses/frases boas.txt",
+		"/home/simone/Documents/Notas teses/dados beer rating.txt",
+		"/home/simone/Documents/Notas teses/recomendações gf.txt",
+		"/home/simone/Dropbox/instruções Leo.txt",
+		"/home/simone/projects/myapp/app/controllers/application_controller.rb"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"id"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/views/administration/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 972,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								600,
+								600
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/home/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 970,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								664,
+								664
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 322.0,
+	"status_bar_visible": true
+}
