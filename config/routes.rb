@@ -1,8 +1,6 @@
 Rails.application.routes.draw do
   get 'management/index'
 
-  get 'administration/index'
-
   get 'home/index'
 
   resources :questions

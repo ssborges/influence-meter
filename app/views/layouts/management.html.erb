@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Administração</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
 <div	class="navbar	navbar-default">
 		<div	class="container-fluid">
 				<div	class="navbar-header">
@@ -11,10 +21,16 @@ toggle="collapse"	data-target="#collapibleMenu">
 				</div>
 				<div	class="collapse	navbar-collapse"	id="collapibleMenu">
 						<ul	class="nav	navbar-nav	navbar-right">
-						<li><a	href="/administrador.html">Página inicial</a></li>
-						<li><a	href="#">CAED</a></li>
+						<li><a	href="#">Página inicial</a></li>
 						<li><a	href="#">Ajuda</a></li>
 					</ul>
 				</div>
 		</div>
 </div>
+
+
+
+<%= yield %>
+
+</body>
+</html>
