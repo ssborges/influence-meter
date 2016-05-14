@@ -36,21 +36,18 @@
 	"buffers":
 	[
 		{
-			"file": "app/views/administration/index.html.erb",
+			"file": "config/initializers/omniauth.rb",
 			"settings":
 			{
-				"buffer_size": 972,
+				"buffer_size": 139,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "<div  class=\"navbar navbar-default\">\n    <div  class=\"container-fluid\">\n        <div  class=\"navbar-header\">\n            <button type=\"button\" class=\"navbar-toggle  collapsed\"  data-\ntoggle=\"collapse\" data-target=\"#collapibleMenu\">\n                <span class=\"icon-bar\"></span>\n                <span class=\"icon-bar\"></span>\n                <span class=\"icon-bar\"></span>\n            </button>\n            <a class=\"navbar-brand\"> Perguntador </a>\n        </div>\n        <div  class=\"collapse navbar-collapse\"  id=\"collapibleMenu\">\n            <ul class=\"nav  navbar-nav  navbar-right\">\n                <li><a  href=\"#\"><%= link_to 'Administração', administration_index_path %></a></li>\n            <li><a  href=\"#\">CAED</a></li>\n            <li><a  href=\"#\">Ajuda</a></li>\n          </ul>\n        </div>\n    </div>\n</div>\n<p></p>\n<div class=\"container\">\n	<div class=\"page-header\">\n		<h1>Teste de Persuasão</h1>\n	</div>\n	<div>\n		<a href=\"#\">Responder Teste</a>\n	</div>\n",
-			"file": "app/views/home/index.html.erb",
-			"file_size": 929,
-			"file_write_time": 1463078612000000,
+			"file": "app/controllers/home_controller.rb",
 			"settings":
 			{
-				"buffer_size": 970,
+				"buffer_size": 88,
 				"line_ending": "Unix"
 			}
 		}
@@ -83,13 +80,17 @@
 	},
 	"file_history":
 	[
-		"/home/simone/projects/persuasion_app/app/views/home/administrador.html.erb",
+		"/home/simone/projects/persuasion_app/Gemfile",
 		"/home/simone/projects/persuasion_app/app/views/home/index.html.erb",
+		"/home/simone/projects/persuasion_app/app/views/management/index.html.erb",
+		"/home/simone/projects/persuasion_app/app/views/categories/index.html.erb",
+		"/home/simone/projects/persuasion_app/app/views/questions/index.html.erb",
+		"/home/simone/projects/persuasion_app/app/views/administration/index.html.erb",
+		"/home/simone/projects/persuasion_app/app/views/home/administrador.html.erb",
 		"/home/simone/projects/persuasion_app/app/views/questions/_navbar_questions.html.erb",
 		"/home/simone/projects/persuasion_app/config/routes.rb",
 		"/home/simone/projects/persuasion_app/app/views/teste/index.html.erb",
 		"/home/simone/projects/persuasion_app/app/models/category.rb",
-		"/home/simone/projects/persuasion_app/app/views/questions/index.html.erb",
 		"/home/simone/projects/persuasion_app/app/views/categories/show.html.erb",
 		"/home/simone/projects/persuasion_app/app/views/questions/show.html.erb",
 		"/home/simone/projects/persuasion_app/app/views/questions/edit.html.erb",
@@ -97,13 +98,11 @@
 		"/home/simone/projects/persuasion_app/app/views/categories/new.html.erb",
 		"/home/simone/projects/persuasion_app/app/views/questions/new.html.erb",
 		"/home/simone/projects/persuasion_app/app/views/categories/edit.html.erb",
-		"/home/simone/projects/persuasion_app/app/views/categories/index.html.erb",
 		"/home/simone/projects/persuasion_app/app/views/questions/_form.html.erb",
 		"/home/simone/projects/persuasion_app/app/views/categories/_form.html.erb",
 		"/home/simone/projects/persuasion_app/app/views/categories/_navbar_categories.html.erb",
 		"/home/simone/projects/persuasion_app/app/assets/stylesheets/application.scss",
 		"/home/simone/projects/persuasion_app/app/assets/javascripts/application.js",
-		"/home/simone/projects/persuasion_app/Gemfile",
 		"/home/simone/projects/persuasion_app/app/assets/stylesheets/application.css.scss",
 		"/home/simone/projects/garantia contra a bosta do git/application.css",
 		"/home/simone/projects/persuasion_app/app/assets/stylesheets/main.css.scss",
@@ -182,23 +181,23 @@
 			[
 				{
 					"buffer": 0,
-					"file": "app/views/administration/index.html.erb",
+					"file": "config/initializers/omniauth.rb",
 					"settings":
 					{
-						"buffer_size": 972,
+						"buffer_size": 139,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								600,
-								600
+								139,
+								139
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -208,25 +207,23 @@
 				},
 				{
 					"buffer": 1,
-					"file": "app/views/home/index.html.erb",
+					"file": "app/controllers/home_controller.rb",
 					"settings":
 					{
-						"buffer_size": 970,
+						"buffer_size": 88,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								664,
-								664
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

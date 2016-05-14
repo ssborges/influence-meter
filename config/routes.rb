@@ -1,14 +1,18 @@
 Rails.application.routes.draw do
-  get 'management/index'
 
-  get 'administration/index'
+  get 'home/profile'
 
   get 'home/index'
 
+  get 'auth/:provider/callback', to: "sessions#create"
+
+  delete 'sign_out', to: "sessions#destroy", as: 'sign_out'
+
   resources :questions
   resources :categories
-  resources :administration
+  resources :management
   resources :teste
+
   get 'home/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
