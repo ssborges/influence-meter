@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"h",
+				"h4	Tag"
+			],
+			[
+				"se",
+				"set_auth"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
 				"dro",
 				"dropdown-menu"
 			],
@@ -35,22 +47,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "config/initializers/omniauth.rb",
-			"settings":
-			{
-				"buffer_size": 139,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/controllers/home_controller.rb",
-			"settings":
-			{
-				"buffer_size": 88,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -80,16 +76,29 @@
 	},
 	"file_history":
 	[
-		"/home/simone/projects/persuasion_app/Gemfile",
+		"/home/simone/projects/persuasion_app/app/views/teste/index.html.erb",
+		"/home/simone/projects/persuasion_app/app/views/layouts/application.html.erb",
+		"/home/simone/projects/persuasion_app/app/models/user.rb",
+		"/home/simone/projects/persuasion_app/app/controllers/sessions_controller.rb",
+		"/home/simone/projects/persuasion_app/config/routes.rb",
+		"/home/simone/projects/persuasion_app/app/helpers/administration_helper.rb",
 		"/home/simone/projects/persuasion_app/app/views/home/index.html.erb",
+		"/home/simone/projects/persuasion_app/app/controllers/home_controller.rb",
+		"/home/simone/projects/persuasion_app/app/controllers/management_controller.rb",
+		"/home/simone/projects/persuasion_app/app/views/home/profile.html.erb",
+		"/home/simone/projects/persuasion_app/app/controllers/teste_controller.rb",
+		"/home/simone/projects/temp.txt",
+		"/home/simone/projects/persuasion_app/app/controllers/application_controller.rb",
+		"/home/simone/projects/persuasion_app/app/controllers/categories_controller.rb",
 		"/home/simone/projects/persuasion_app/app/views/management/index.html.erb",
-		"/home/simone/projects/persuasion_app/app/views/categories/index.html.erb",
 		"/home/simone/projects/persuasion_app/app/views/questions/index.html.erb",
+		"/home/simone/projects/persuasion_app/app/views/categories/index.html.erb",
+		"/home/simone/projects/persuasion_app/config/initializers/omniauth.rb",
+		"/home/simone/projects/Templates/stukbook-master/app/views/layouts/application.html.erb",
+		"/home/simone/projects/persuasion_app/Gemfile",
 		"/home/simone/projects/persuasion_app/app/views/administration/index.html.erb",
 		"/home/simone/projects/persuasion_app/app/views/home/administrador.html.erb",
 		"/home/simone/projects/persuasion_app/app/views/questions/_navbar_questions.html.erb",
-		"/home/simone/projects/persuasion_app/config/routes.rb",
-		"/home/simone/projects/persuasion_app/app/views/teste/index.html.erb",
 		"/home/simone/projects/persuasion_app/app/models/category.rb",
 		"/home/simone/projects/persuasion_app/app/views/categories/show.html.erb",
 		"/home/simone/projects/persuasion_app/app/views/questions/show.html.erb",
@@ -112,8 +121,6 @@
 		"/home/simone/projects/exemplo bkp.rhtml",
 		"/home/simone/projects/backup da home da questao.txt",
 		"/home/simone/projects/passos app",
-		"/home/simone/projects/persuasion_app/app/controllers/categories_controller.rb",
-		"/home/simone/projects/persuasion_app/app/controllers/application_controller.rb",
 		"/home/simone/projects/persuasion_app/db/migrate/20160509212315_create_questions.rb",
 		"/home/simone/projects/persuasion_app/db/migrate/20160509201630_create_categories.rb",
 		"/home/simone/projects/persuasion_app/config/database.yml",
@@ -149,9 +156,10 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -159,6 +167,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"div",
+			"end",
+			"|end",
+			"|",
+			"info",
+			"class",
+			"html",
+			"body",
 			"id"
 		],
 		"highlight": true,
@@ -179,58 +195,6 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "config/initializers/omniauth.rb",
-					"settings":
-					{
-						"buffer_size": 139,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								139,
-								139
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/controllers/home_controller.rb",
-					"settings":
-					{
-						"buffer_size": 88,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
