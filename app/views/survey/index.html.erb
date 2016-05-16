@@ -1,33 +1,37 @@
+
 <p id="notice"><%= notice %></p>
 
 <div class="container">
   <div class="page-header">
-  <h1>Persuasão: Que argumentos funcionam (ou não) com você?</h1>
+    <h1>Persuasão: Que argumentos funcionam (ou não) com você?</h1>
+  </div>
 </div>
 
+<div class="container">
 
-<table class="table table-striped">
-  <thead>
-    <tr>
-      <th>Enunciado</th>
-      <th>Resposta</th>
+  <%=form_for (@user) do |f|%>
 
-    </tr>
-  </thead>
+  <% @questions.each do |question| %>
 
-  <tbody>
-    <% @questions.each do |question| %>
-      <tr>
-        <td><%= question.body %></td>
-        <td>Likert vai aqui</td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+  <div>
+      <label>
+        <%= question.body %>
+      </label>
 
+      <fieldset>
+        <% likert = {'Discordo totalmente' => 1, 'Discordo' => 2, 'Indiferente' => 3, 'Concordo' => 4, 'Concordo totalmente' => 5} %>
+      </fieldset>
+
+      <p></p>
+
+    </div>
+
+  <% end %>
+</div>
+
+<% end %>
 
 <br>
 
-  <!-- <%= link_to 'Responder', new_question_path %> --> 
-  <!-- container end -->
-</div>
+<!-- <%= link_to 'Responder', new_question_path %> --> 
+<!-- container end -->
