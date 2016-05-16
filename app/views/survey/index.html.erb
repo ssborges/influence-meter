@@ -14,7 +14,7 @@
 
         <% @questions.each do |question| %>
 
-            <label class="statement"><%= question.body %></label>
+            <h3><span class="label label-primary"><%= question.body %></span></h3>
             <ul class='likert'>
               <li>
                 <input type="radio" name="likert" value="1">
@@ -41,8 +41,8 @@
         <% end %>
 
               <div class="buttons">
-              <button class="clear">Limpar</button>
-              <button class="submit">Enviar</button>
+              <button class="btn btn-default">Limpar</button>
+              <button class="btn btn-primary">Enviar</button>
             </div>
 
       </div>
