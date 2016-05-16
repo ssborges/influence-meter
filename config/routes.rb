@@ -7,6 +7,8 @@ Rails.application.routes.draw do
 
   get 'home/index'
 
+  get 'survey/index'
+
   resources :questions
   resources :categories
   resources :management
