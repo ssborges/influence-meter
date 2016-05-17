@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get 'survey/index' => "survey#index"
   post 'survey/index' => "survey#index"
 
+  get "/" => "home#index"
   post "/" => "home#index"
 
 
