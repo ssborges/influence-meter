@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   get 'survey/index'
   post 'survey/index'
 
-  ```` post "/" => "home#index"
+  post "/" => "home#index"
 
 
   resources :questions
