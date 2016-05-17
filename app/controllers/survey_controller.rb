@@ -4,4 +4,6 @@ class SurveyController < ApplicationController
   def index
     @questions = Question.all
   end
+
+  
 end

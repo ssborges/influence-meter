@@ -1,17 +1,22 @@
 Rails.application.routes.draw do
 
   get 'management/index'
+  post 'management/index'
 
   get 'home/index'
+  post 'home/index'
 
   get 'survey/index'
+  post 'survey/index'
+
+  ```` post "/" => "home#index"
+
 
   resources :questions
   resources :categories
   resources :management
   resources :survey
   
-  get 'home/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
