@@ -3,52 +3,7 @@
 	<div class="page-header">
 		<h1>Home</h1>
 	</div>
-<div class="container">
-  <div class="page-header">
-    <h1>Que argumentos funcionam (ou não) com você?</h1>
-  </div>
-</div>
-
-<div class="container">
-
-      <div class="wrap">
-        <form action="">
-
-        <% @questions.each do |question| %>
-
-            <h3><span class="label label-primary"><%= question.body %></span></h3>
-            <ul class='likert'>
-              <li>
-                <input type="radio" name="likert" value="1">
-                <label>Concordo totalmente</label>
-              </li>
-              <li>
-                <input type="radio" name="likert" value="2">
-                <label>Concordo</label>
-              </li>
-              <li>
-                <input type="radio" name="likert" value="3">
-                <label>Neutro</label>
-              </li>
-              <li>
-                <input type="radio" name="likert" value="4">
-                <label>Discordo</label>
-              </li>
-              <li>
-                <input type="radio" name="likert" value="5">
-                <label>Discordo totalmente</label>
-              </li>
-            </ul>
-
-        <% end %>
-
-              <div class="buttons">
-              <button class="btn btn-default">Limpar</button>
-              <button class="btn btn-primary">Enviar</button>
-            </div>
-
-      </div>
-
-</div>
+	<div>
+    </div>
 </div>
 
