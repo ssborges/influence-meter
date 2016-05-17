@@ -1,13 +1,13 @@
 Rails.application.routes.draw do
 
-  get 'management/index'
-  post 'management/index'
+  get 'management/index' => "management#index"
+  post 'management/index' => "management#index"
 
-  get 'home/index'
-  post 'home/index'
+  get 'home/index' => "home#index"
+  post 'home/index' => "home#index"
 
-  get 'survey/index'
-  post 'survey/index'
+  get 'survey/index' => "survey#index"
+  post 'survey/index' => "survey#index"
 
   post "/" => "home#index"
 
