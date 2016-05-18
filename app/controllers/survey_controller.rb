@@ -10,5 +10,10 @@ class SurveyController < ApplicationController
   # GET /questions/1.json
   def show
   end
+
+
+  def create
+  end
+  
 end
 
