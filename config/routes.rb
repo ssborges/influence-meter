@@ -9,6 +9,12 @@ Rails.application.routes.draw do
   get 'survey/index' => "survey#index"
   post 'survey/index' => "survey#index"
 
+  get 'question/index' => "question#index"
+  post 'question/index' => "question#index"
+
+  get 'categories/index' => "categories#index"
+  post 'categories/index' => "categories#index"
+
   get "/" => "home#index"
   post "/" => "home#index"
 
@@ -17,7 +23,7 @@ Rails.application.routes.draw do
   resources :categories
   resources :management
   resources :survey
-  resourcer :home
+
   
 
   # The priority is based upon order of creation: first created -> highest priority.
