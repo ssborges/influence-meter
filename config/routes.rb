@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   resources :questions
 
   resources :management
-  resources :survey
+  resources :survey, only: :show
 
   
 
