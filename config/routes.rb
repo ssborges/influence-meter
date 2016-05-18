@@ -5,9 +5,8 @@ Rails.application.routes.draw do
   post "/" => "home#index"
 
 
-  resources :categories do 
-      resources :questions
-  end
+  resources :categories
+  resources :questions
 
   resources :management
   resources :survey
