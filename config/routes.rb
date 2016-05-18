@@ -17,6 +17,7 @@ Rails.application.routes.draw do
   resources :categories
   resources :management
   resources :survey
+  resourcer :home
   
 
   # The priority is based upon order of creation: first created -> highest priority.
