@@ -10,7 +10,7 @@ Rails.application.routes.draw do
   end
 
   resources :management
-  resources :survey, only: :show
+  resources :survey
 
   
 
