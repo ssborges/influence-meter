@@ -1,25 +1,17 @@
 Rails.application.routes.draw do
 
-  get 'management/index' => "management#index"
-  post 'management/index' => "management#index"
-
-  get 'home/index' => "home#index"
-  post 'home/index' => "home#index"
-
-  get 'question/index' => "question#index"
-  post 'question/index' => "question#index"
-
-  get 'categories/index' => "categories#index"
-  post 'categories/index' => "categories#index"
 
   get "/" => "home#index"
   post "/" => "home#index"
 
 
-  resources :questions
-  resources :categories
-  resources :management
+  
+  resources :categories do 
+      resources :questions
+  end
 
+  resources :management do
+  resources :survey
 
   
 
