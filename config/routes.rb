@@ -6,9 +6,6 @@ Rails.application.routes.draw do
   get 'home/index' => "home#index"
   post 'home/index' => "home#index"
 
-  get 'survey/index' => "survey#index"
-  post 'survey/index' => "survey#index"
-
   get 'question/index' => "question#index"
   post 'question/index' => "question#index"
 
@@ -22,7 +19,7 @@ Rails.application.routes.draw do
   resources :questions
   resources :categories
   resources :management
-  resources :survey
+
 
   
 
