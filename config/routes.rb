@@ -5,12 +5,11 @@ Rails.application.routes.draw do
   post "/" => "home#index"
 
 
-  
   resources :categories do 
       resources :questions
   end
 
-  resources :management do
+  resources :management
   resources :survey
 
   
