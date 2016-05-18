@@ -6,10 +6,13 @@ Rails.application.routes.draw do
 
 
   resources :categories
-  resources :questions
+  
+  resources :questions do  
+    resources :survey
+  end
 
   resources :management
-  resources :survey, only: :show
+
 
   
 
