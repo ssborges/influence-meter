@@ -1,7 +1,5 @@
 class QuestionsController < ApplicationController
 
-  layout 'management'
-
   before_action :set_question, only: [:show, :edit, :update, :destroy]
 
   # GET /questions

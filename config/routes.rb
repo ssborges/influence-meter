@@ -8,6 +8,8 @@ Rails.application.routes.draw do
 
   resources :questions
 
+  resources :management
+
  
 
   # The priority is based upon order of creation: first created -> highest priority.
