@@ -1,3 +1,5 @@
+
+
 <%= form_for(@survey) do |f| %>
   <% if @survey.errors.any? %>
     <div id="error_explanation">
@@ -11,27 +13,31 @@
     </div>
   <% end %>
 
+
   <div class="field">
     <%= f.label :user_id %><br>
     <%= f.number_field :user_id %>
   </div>
+  <br />
 
-  <% @questions_adm.each do |question| %>
+  <div class="wrap">
 
-  <div class="field">
-    <%= f.label :question %><br>
-    <%= f.text_area :question %>
-  </div>
+      <% @questions_adm.each do |question| %>
+        <h3><span class="label label-primary"><%= question.body %></span></h3>
+      <% end %>
 
-  <% end %>
-
-  <div class="field">
-    <%= f.label :option %><br>
-    <%= f.number_field :option %>
   </div>
 
   <br />
   <div class="actions">
     <%= f.submit %>
   </div>
+
+  <br />
+
 <% end %>
+
+
+
+
+
