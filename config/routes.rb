@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-
-
+ 
   get "/" => "home#index"
   post "/" => "home#index"
 
@@ -10,6 +9,7 @@ Rails.application.routes.draw do
 
   resources :management
 
+  resources :surveys
 
 
   # The priority is based upon order of creation: first created -> highest priority.
