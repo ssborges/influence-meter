@@ -15,6 +15,7 @@ class SurveysController < ApplicationController
   # GET /surveys/new
   def new
     @survey = Survey.new
+    @questions_adm = Question.all
   end
 
   # GET /surveys/1/edit

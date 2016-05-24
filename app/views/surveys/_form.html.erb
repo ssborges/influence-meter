@@ -15,14 +15,22 @@
     <%= f.label :user_id %><br>
     <%= f.number_field :user_id %>
   </div>
+
+  <% @questions_adm.each do |question| %>
+
   <div class="field">
     <%= f.label :question %><br>
     <%= f.text_area :question %>
   </div>
+
+  <% end %>
+
   <div class="field">
     <%= f.label :option %><br>
     <%= f.number_field :option %>
   </div>
+
+  <br />
   <div class="actions">
     <%= f.submit %>
   </div>
