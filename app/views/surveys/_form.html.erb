@@ -1,29 +1,42 @@
 
 
-<%= form_for(@survey) do |f| %>
-  <% if @survey.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@survey.errors.count, "error") %> prohibited this survey from being saved:</h2>
+<%= simple_form_for(@survey) do |f| %>
 
-      <ul>
-      <% @survey.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
-      <% end %>
-      </ul>
-    </div>
-  <% end %>
+    <%= f.input :user_id %>
 
-
-  <div class="field">
-    <%= f.label :user_id %><br>
-    <%= f.number_field :user_id %>
-  </div>
-  <br />
 
   <div class="wrap">
 
-      <% @questions_adm.each do |question| %>
-        <h3><span class="label label-primary"><%= question.body %></span></h3>
+      <% @questions_adm.each_with_index do |question, i| %>
+
+          <h3><span class="label label-primary"><%= question.body %></span></h3><br />
+          <div class='likert'>
+           <ul> 
+            <li>
+              <%= radio_button_tag("answer_#{i.to_s}", "1") %>
+              <%= label_tag(:answer, "Concordo totalmente") %>
+            </li>
+            <li>
+              <%= radio_button_tag("answer_#{i.to_s}", "2") %>
+              <%= label_tag(:answer, "Concordo") %>
+            </li>
+            <li>
+              <%= radio_button_tag("answer_#{i.to_s}", "3") %>
+              <%= label_tag(:answer, "Neutro") %>
+            </li>
+            <li>
+              <%= radio_button_tag("answer_#{i.to_s}", "4") %>
+              <%= label_tag(:answer, "Discordo") %>
+            </li>
+            <li>
+              <%= radio_button_tag("answer_#{i.to_s}", "5") %>
+              <%= label_tag(:answer, "Discordo Totalmente") %>
+            </li>
+
+          </ul>
+          <br />
+        </div><br /><br />
+
       <% end %>
 
   </div>

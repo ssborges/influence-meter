@@ -31,6 +31,9 @@ gem 'autoprefixer-rails'
 gem 'omniauth'
 gem 'omniauth-facebook'
 
+#Simple_Form https://github.com/plataformatec/simple_form
+gem 'simple_form'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
