@@ -16,8 +16,8 @@
     <% @surveys.each do |survey| %>
       <tr>
         <td><%= survey.user_id %></td>
-        <td><%= survey.question %></td>
-        <td><%= survey.option %></td>
+        <td><%= survey.question.count %></td>
+        <td><%= survey.option.count %></td>
         <td><%= link_to 'Show', survey %></td>
         <td><%= link_to 'Edit', edit_survey_path(survey) %></td>
         <td><%= link_to 'Destroy', survey, method: :delete, data: { confirm: 'Are you sure?' } %></td>

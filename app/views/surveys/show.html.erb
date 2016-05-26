@@ -7,12 +7,12 @@
 
 <p>
   <strong>Question:</strong>
-  <%= @survey.question %>
+  <%= @survey.question.count%>
 </p>
 
 <p>
   <strong>Option:</strong>
-  <%= @survey.option %>
+  <%= @survey.option.count%>
 </p>
 
 <%= link_to 'Edit', edit_survey_path(@survey) %> |

@@ -2,35 +2,40 @@
 
 <%= simple_form_for(@survey) do |f| %>
 
-    <%= f.input :user_id %>
-
+     <%= f.hidden_field :user_id, :value => "37" %>
+     <%= @survey.question ||= [] %>
 
   <div class="wrap">
 
       <% @questions_adm.each_with_index do |question, i| %>
 
           <h3><span class="label label-primary"><%= question.body %></span></h3><br />
+
+          <%= @survey.question << question.id %>
+          <%= f.hidden_field :question, :multiple => true, :value => question.id %>
+
+
           <div class='likert'>
            <ul> 
             <li>
-              <%= radio_button_tag("answer_#{i.to_s}", "1") %>
-              <%= label_tag(:answer, "Concordo totalmente") %>
+              <%= radio_button_tag("option#{i.to_s}", "1") %>
+              <%= label_tag(:option, "Concordo totalmente") %>
             </li>
             <li>
-              <%= radio_button_tag("answer_#{i.to_s}", "2") %>
-              <%= label_tag(:answer, "Concordo") %>
+              <%= radio_button_tag("option#{i.to_s}", "2") %>
+              <%= label_tag(:option, "Concordo") %>
             </li>
             <li>
-              <%= radio_button_tag("answer_#{i.to_s}", "3") %>
-              <%= label_tag(:answer, "Neutro") %>
+              <%= radio_button_tag("option#{i.to_s}", "3") %>
+              <%= label_tag(:option, "Neutro") %>
             </li>
             <li>
-              <%= radio_button_tag("answer_#{i.to_s}", "4") %>
-              <%= label_tag(:answer, "Discordo") %>
+              <%= radio_button_tag("option#{i.to_s}", "4") %>
+              <%= label_tag(:option, "Discordo") %>
             </li>
             <li>
-              <%= radio_button_tag("answer_#{i.to_s}", "5") %>
-              <%= label_tag(:answer, "Discordo Totalmente") %>
+              <%= radio_button_tag("option#{i.to_s}", "5") %>
+              <%= label_tag(:option, "Discordo Totalmente") %>
             </li>
           </ul>
           <br />
@@ -39,7 +44,6 @@
       <% end %>
 
   </div>
-
   <br />
   <div class="actions">
     <%= f.submit %>

@@ -1,0 +1,13 @@
+<%= simple_form_for(@post, html: { class: 'form-horizontal' }) do |f| %>
+  <%= f.error_notification %>
+
+
+  <div class="form-group">
+    <%= f.input :title %>
+    <%= f.input :body, html: { class: 'form-control' } %>
+  </div>
+
+  <div class="actions">
+    <%= f.button :submit, 'Salvar', :class => 'btn btn-sm btn-primary' %>
+  </div>
+<% end %>
