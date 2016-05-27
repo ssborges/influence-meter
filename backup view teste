@@ -1,0 +1,37 @@
+     <%= f.hidden_field :user_id, :value => "37" %>
+     <%= @survey.question ||= [] %>
+     <%= @survey.option ||= [] %>
+
+  <div class="wrap">
+
+      <% @questions_adm.each_with_index do |q, i| %>
+
+          <%= @survey.question << q.id %>
+          <%= f.hidden_field :question, :multiple => true, :value => q.id %>
+
+          <h3><span class="label label-primary"><%= q.body %></span></h3><br />
+
+
+
+
+              <% @options_adm.each_with_index do |op, i| %>
+
+              <%= op.body %>
+
+
+              <% end %>
+
+
+
+    <br />
+
+    <%= @survey.option.first  %>
+    <%= @survey.option.last  %>
+
+      <% end %>
+
+  <br />
+<div class="actions">
+  <%= f.submit 'Salvar', :class => 'btn btn-sm btn-primary'%>
+</div>
+  <br />

@@ -1,0 +1,362 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"survey",
+				"survey_params"
+			],
+			[
+				"surve",
+				"survey_params"
+			],
+			[
+				"ques",
+				"questions_adm"
+			],
+			[
+				"q",
+				"quiz"
+			],
+			[
+				"se",
+				"session"
+			],
+			[
+				"si",
+				"signout"
+			],
+			[
+				"h",
+				"h4	Tag"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"dro",
+				"dropdown-menu"
+			],
+			[
+				"cate",
+				"category"
+			],
+			[
+				"id",
+				"id"
+			],
+			[
+				"ca",
+				"category_id"
+			],
+			[
+				"cat",
+				"category_id"
+			],
+			[
+				"categ",
+				"Category"
+			],
+			[
+				"cont",
+				"controller"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/simone/projects/blooming-tor-93225/app/controllers/surveys_controller.rb",
+		"/home/simone/projects/javascript que le valor do button.txt",
+		"/home/simone/projects/blooming-tor-93225/app/views/surveys/_form.html.erb",
+		"/home/simone/projects/blooming-tor-93225/app/views/foo/bar.html.erb",
+		"/home/simone/projects/blooming-tor-93225/app/views/layouts/application.html.erb",
+		"/home/simone/projects/blooming-tor-93225/app/views/layouts/management.html.erb",
+		"/home/simone/projects/blooming-tor-93225/app/views/foo/index.html.erb",
+		"/home/simone/projects/blooming-tor-93225/config/routes.rb",
+		"/home/simone/projects/blooming-tor-93225/app/controllers/foo_controller.rb",
+		"/home/simone/projects/untitled.rhtml",
+		"/home/simone/projects/blooming-tor-93225/app/views/surveys/show.html.erb",
+		"/home/simone/projects/blooming-tor-93225/app/views/surveys/index.html.erb",
+		"/home/simone/projects/blooming-tor-93225/app/models/survey.rb",
+		"/home/simone/projects/blooming-tor-93225/app/models/question.rb",
+		"/home/simone/projects/blooming-tor-93225/db/migrate/20160526115043_add_question_to_surveys.rb",
+		"/home/simone/projects/blooming-tor-93225/db/migrate/20160526131614_add_question_to_surveys.rb",
+		"/home/simone/projects/blooming-tor-93225/app/views/posts/_form.html.erb",
+		"/home/simone/projects/blooming-tor-93225/db/migrate/20160526131121_add_option_to_surveys.rb",
+		"/home/simone/projects/blooming-tor-93225/db/migrate/20160524001418_create_surveys.rb",
+		"/home/simone/projects/blooming-tor-93225/db/migrate/20160526113405_alter_column_surveys_question.rb",
+		"/home/simone/projects/blooming-tor-93225/app/views/questions/index.html.erb",
+		"/home/simone/projects/blooming-tor-93225/app/views/posts/index.html.erb",
+		"/home/simone/projects/blooming-tor-93225/app/views/posts/show.html.erb",
+		"/home/simone/projects/blooming-tor-93225/app/views/questions/_form.html.erb",
+		"/home/simone/projects/blooming-tor-93225/app/views/posts/new.html.erb",
+		"/home/simone/projects/blooming-tor-93225/app/views/questions/show.html.erb",
+		"/home/simone/projects/blooming-tor-93225/app/models/post.rb",
+		"/home/simone/projects/blooming-tor-93225/app/controllers/comments_controller.rb",
+		"/home/simone/projects/blooming-tor-93225/app/views/comments/_comment.html.erb",
+		"/home/simone/projects/blooming-tor-93225/db/schema.rb",
+		"/home/simone/projects/blooming-tor-93225/retalhos de codigo teste.txt",
+		"/home/simone/projects/blooming-tor-93225/app/views/answers/_form.html.erb",
+		"/home/simone/projects/blooming-tor-93225/db/migrate/20160524233053_create_answers.rb",
+		"/home/simone/projects/SurveyApp04/Gemfile",
+		"/home/simone/projects/SurveyApp04/config/database.yml.example",
+		"/home/simone/projects/SurveyApp04/config/database.yml",
+		"/home/simone/projects/SurveyApp04/config/routes.rb",
+		"/home/simone/projects/SurveyApp04/app/controllers/application_controller.rb",
+		"/home/simone/projects/SurveyApp03/Gemfile",
+		"/home/simone/projects/SurveyApp03/app/controllers/application_controller.rb",
+		"/home/simone/projects/SurveyApp03/config/routes.rb",
+		"/home/simone/projects/SurveyApp02/config/routes.rb",
+		"/home/simone/projects/SurveyApp02/app/models/user.rb",
+		"/home/simone/projects/SurveyApp02/Gemfile",
+		"/home/simone/projects/blooming-tor-93225/app/helpers/surveys_helper.rb",
+		"/home/simone/projects/blooming-tor-93225/app/views/answers/new.html.erb",
+		"/home/simone/projects/blooming-tor-93225/app/views/surveys/_answer.html.erb",
+		"/home/simone/projects/blooming-tor-93225/app/views/answers/back_up do teste answers loop.text",
+		"/home/simone/projects/blooming-tor-93225/app/controllers/questions_controller.rb",
+		"/home/simone/projects/blooming-tor-93225/app/controllers/answers_controller.rb",
+		"/home/simone/projects/radio button problem.txt",
+		"/home/simone/projects/blooming-tor-93225/lista_pergutnas.txt",
+		"/home/simone/projects/blooming-tor-93225/app/models/answer.rb",
+		"/home/simone/projects/blooming-tor-93225/app/models/user.rb",
+		"/home/simone/projects/blooming-tor-93225/Gemfile",
+		"/home/simone/projects/blooming-tor-93225/app/views/surveys/new.html.erb",
+		"/home/simone/projects/blooming-tor-93225/app/views/questions/new.html.erb",
+		"/home/simone/projects/blooming-tor-93225/app/views/home/index.html.erb",
+		"/home/simone/projects/blooming-tor-93225/app/views/management/index.html.erb",
+		"/home/simone/projects/blooming-tor-93225/app/views/questions/answering.html.erb",
+		"/home/simone/projects/blooming-tor-93225/app/controllers/management_controller.rb",
+		"/home/simone/projects/blooming-tor-93225/app/controllers/surveys_controler.rb",
+		"/home/simone/projects/blooming-tor-93225/app/views/surveys/questions_fields.html.erb",
+		"/home/simone/projects/blooming-tor-93225/app/views/surveys/_answer_fields.html.erb",
+		"/home/simone/projects/blooming-tor-93225/app/views/layouts/survey.html.erb",
+		"/home/simone/projects/blooming-tor-93225.sublime-project",
+		"/home/simone/projects/blooming-tor-93225/app/views/surveys/survey.html.erb",
+		"/home/simone/projects/blooming-tor-93225/app/controllers/survey_controller.rb",
+		"/home/simone/projects/blooming-tor-93225/app/views/questions/answers.html.erb",
+		"/home/simone/projects/blooming-tor-93225/app/views/surveys/answers.html.erb",
+		"/home/simone/projects/blooming-tor-93225/app/controllers/user_controller.rb",
+		"/home/simone/projects/blooming-tor-93225/app/models/category.rb",
+		"/home/simone/projects/blooming-tor-93225.sublime-workspace",
+		"/home/simone/projects/blooming-tor-93225/app/models/participant.rb",
+		"/home/simone/projects/blooming-tor-93225/app/controllers/application_controller.rb",
+		"/home/simone/projects/blooming-tor-93225/db/migrate/20160509201630_create_categories.rb",
+		"/home/simone/projects/blooming-tor-93225/app/controllers/categories_controller.rb",
+		"/home/simone/projects/blooming-tor-93225/app/models/questionnaire.rb",
+		"/home/simone/projects/blooming-tor-93225/test/fixtures/questionnaires.yml",
+		"/home/simone/projects/blooming-tor-93225/app/controllers/home_controller.rb",
+		"/home/simone/projects/blooming-tor-93225/app/views/quiz/_form.html.erb",
+		"/home/simone/projects/blooming-tor-93225/app/views/quiz/index.html.erb",
+		"/home/simone/projects/blooming-tor-93225/app/controllers/quiz_controller.rb",
+		"/home/simone/projects/blooming-tor-93225/app/views/questions/edit.html.erb",
+		"/home/simone/projects/blooming-tor-93225/app/views/quiz/results.html.erb",
+		"/home/simone/projects/blooming-tor-93225/app/helpers/quiz_helper.rb",
+		"/home/simone/projects/view provisoria quiz.txt",
+		"/home/simone/projects/blooming-tor-93225/app/views/categories/index.html.erb",
+		"/home/simone/projects/blooming-tor-93225/config/application.rb",
+		"/home/simone/projects/blooming-tor-93225/app/views/home/management.html.erb",
+		"/home/simone/projects/persuasion_app/app/controllers/categories_controller.rb",
+		"/home/simone/projects/persuasion_app/app/controllers/questions_controller.rb",
+		"/home/simone/projects/persuasion_app/app/assets/stylesheets/application.scss",
+		"/home/simone/projects/persuasion_app/app/controllers/application_controller.rb",
+		"/home/simone/projects/persuasion_app/app/controllers/home_controller.rb",
+		"/home/simone/projects/persuasion_app/config/application.rb",
+		"/home/simone/projects/persuasion_app/app/views/layouts/application.html.erb",
+		"/home/simone/projects/persuasion_app/config/facebooker.yml",
+		"/home/simone/projects/persuasion_app/app/views/home/index.html.erb",
+		"/home/simone/projects/persuasion_app/config/routes.rb",
+		"/home/simone/projects/persuasion_app/app/views/categories/index.html.erb",
+		"/home/simone/projects/persuasion_app/app/views/questions/index.html.erb",
+		"/home/simone/projects/persuasion_app/app/views/questions/survey.html.erb",
+		"/home/simone/projects/persuasion_app/app/controllers/survey_controller.rb",
+		"/home/simone/projects/persuasion_app/app/controllers/management_controller.rb",
+		"/home/simone/projects/persuasion_app/app/views/survey/index.html.erb",
+		"/home/simone/projects/temp code.txt",
+		"/home/simone/projects/persuasion_app/app/views/questions/_form.html.erb",
+		"/home/simone/projects/persuasion_app/app/views/categories/_form.html.erb",
+		"/home/simone/projects/persuasion_app/app/models/user.rb",
+		"/home/simone/projects/Temp/fb-canvas-rails-master/config/routes.rb",
+		"/home/simone/projects/persuasion_app/config/initializers/omniauth.rb",
+		"/home/simone/projects/persuasion_app/app/controllers/sessions_controller.rb",
+		"/home/simone/Documents/Questionario/temp code.txt",
+		"/home/simone/projects/persuasion_app/config/initializers/session_store.rb",
+		"/home/simone/projects/persuasion_app/Gemfile",
+		"/home/simone/projects/persuasion_app/app/models/question.rb",
+		"/home/simone/projects/persuasion_app/app/models/answer.rb",
+		"/home/simone/projects/persuasion_app/db/migrate/20160516140709_create_users.rb",
+		"/home/simone/projects/persuasion_app/app/models/survey.rb",
+		"/home/simone/projects/persuasion_app/app/models/answered_survey.rb",
+		"/home/simone/projects/persuasion_app/app/views/layouts/management.html.erb",
+		"/home/simone/projects/persuasion_app/app/views/questions/show.html.erb",
+		"/home/simone/projects/persuasion_app/app/views/management/index.html.erb",
+		"/home/simone/projects/persuasion_app/app/helpers/survey_helper.rb",
+		"/home/simone/projects/persuasion_app/app/views/questions/answering.html.erb",
+		"/home/simone/projects/persuasion_app/app/controllers/answering_controller.rb",
+		"/home/simone/projects/persuasion_app/app/views/questions/new.html.erb"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"question.id",
+			"id",
+			"#{i.to_s}",
+			":answer+{i}",
+			"answer",
+			"%>\n",
+			"question",
+			"participant",
+			"user",
+			"management",
+			"form_for",
+			"X-Frame",
+			"X-frame",
+			"user",
+			"div",
+			"end",
+			"|end",
+			"|",
+			"info",
+			"class",
+			"html",
+			"body",
+			"id"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"'answer_'+i.to_s",
+			"option",
+			"survey",
+			"user",
+			"participant"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/home/simone/projects/blooming-tor-93225.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 329.0,
+	"status_bar_visible": true
+}

@@ -5,6 +5,8 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <%= javascript_include_tag "http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" %>
+  
 
 <style type="text/css">
 html,body {padding:0;margin:0;}
@@ -77,8 +79,12 @@ form .buttons button {
 
 </style>
 
+
+
+
 </head>
 <body>
+
 
   <script>
   window.fbAsyncInit = function() {
@@ -123,6 +129,9 @@ FB.getLoginStatus(function(response) {
      js.src = "//connect.facebook.net/pt_BR/sdk.js";
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
+
+
+  
 </script>
 
 	<div class="navbar	navbar-default">

@@ -1,59 +1,49 @@
 
+<%= form_for(@survey) do |f| %>
 
-<%= simple_form_for(@survey) do |f| %>
-
-     <%= f.hidden_field :user_id, :value => "37" %>
-     <%= @survey.question ||= [] %>
+<%= f.hidden_field :user_id, :value => "15" %>
+<%= @survey.question ||= [] %>
+<%= @survey.option ||= [] %>
 
   <div class="wrap">
 
-      <% @questions_adm.each_with_index do |question, i| %>
+      <% @questions_adm.each_with_index do |q, i| %>
 
-          <h3><span class="label label-primary"><%= question.body %></span></h3><br />
-
-          <%= @survey.question << question.id %>
-          <%= f.hidden_field :question, :multiple => true, :value => question.id %>
-
+          <%= @survey.question << q.id %>
+          <%= f.hidden_field :question, :multiple => true, :value => q.id %>
 
           <div class='likert'>
            <ul> 
             <li>
-              <%= radio_button_tag("option#{i.to_s}", "1") %>
-              <%= label_tag(:option, "Concordo totalmente") %>
+              <%= radio_button_tag("option[group_#{i.to_s}]", 1) %>
+
             </li>
             <li>
-              <%= radio_button_tag("option#{i.to_s}", "2") %>
-              <%= label_tag(:option, "Concordo") %>
+              <%= radio_button_tag("option[group_#{i.to_s}]", 2) %>
+
             </li>
             <li>
-              <%= radio_button_tag("option#{i.to_s}", "3") %>
-              <%= label_tag(:option, "Neutro") %>
+              <%= radio_button_tag("option[group_#{i.to_s}]", 3) %>
+
             </li>
             <li>
-              <%= radio_button_tag("option#{i.to_s}", "4") %>
-              <%= label_tag(:option, "Discordo") %>
+              <%= radio_button_tag("option[group_#{i.to_s}]", 4) %>
+
             </li>
             <li>
-              <%= radio_button_tag("option#{i.to_s}", "5") %>
-              <%= label_tag(:option, "Discordo Totalmente") %>
+              <%= radio_button_tag("option[group_#{i.to_s}]", 5) %>
+
             </li>
           </ul>
           <br />
         </div><br /><br />
 
-      <% end %>
+        <% end %>
 
-  </div>
   <br />
-  <div class="actions">
-    <%= f.submit %>
-  </div>
-
+<div class="actions">
+  <%= f.submit 'Salvar', :class => 'btn btn-sm btn-primary'%>
+</div>
   <br />
 
 <% end %>
-
-
-
-
-
