@@ -1,0 +1,126 @@
+Conserto do Bozo
+
+
+    options << option[:option][:group_1]
+    options << option[:option][:group_2]
+    options << option[:option][:group_3]
+    options << option[:option][:group_4]  
+
+
+    @option = Option.new
+    @option = params[:option] || []
+
+    p @option
+    puts "hello simone"
+
+
+
+        @options = Option.new
+   
+    @options = params[:option] || []
+
+    @options << params[:option][1]
+    @options << params[:option][2]
+    @options << params[:option][3]
+    @options << params[:option][4] 
+
+
+
+
+
+<%= form_for(@survey) do |f| %>
+
+
+<%= f.hidden_field :user_id, :value => "666" %>
+
+<%= @survey.question ||= [] %>
+<%= @survey.option ||= [] %>
+
+<fieldset>
+  <div class="wrap">
+
+      <% @questions_adm.each_with_index do |q, i| %>
+   
+          <%= f.hidden_field :question, :multiple => true, :value => q.id %>
+
+          <div class='likert'>
+           <ul> 
+            <li>
+              <%= f.radio_button("@survey.option[group_#{i.to_s}]", 1) %>
+
+            </li>
+            <li>
+              <%= f.radio_button("@survey.option[group_#{i.to_s}]", 2) %>
+
+            </li>
+            <li>
+              <%= f.radio_button("@survey.option[group_#{i.to_s}]", 3) %>
+
+            </li>
+            <li>
+              <%= f.radio_button_tag("@survey.option[group_#{i.to_s}]", 4) %>
+
+            </li>
+            <li>
+              <%= f.radio_button_tag("@survey.option[group_#{i.to_s}]", 5) %>
+
+            </li>
+          </ul>
+          <br />
+        </div><br /><br />
+
+        <% end %>
+  </fieldset>
+
+  <br />
+<div class="actions">
+  <%= submit_tag 'Salvar', :class => 'btn btn-sm btn-primary'%>
+</div>
+  <br />
+
+<% end %>
+
+
+              <%= label ':option_#{i.to_s}', 'CT' %>
+
+
+
+              ________________________________________________________________________________
+
+
+
+                         <ul> 
+            <li>
+              <%= radio_button_tag("survey[option][#{i.to_s}]", "1") %>
+              <%= label_tag(:option, "Concordo totalmente") %>
+            </li>
+            <li>
+              <%= radio_button_tag("survey[option][#{i.to_s}]", "2") %>
+              <%= label_tag(:option, "Concordo") %>
+            </li>
+            <li>
+              <%= radio_button_tag("survey[option][#{i.to_s}]", "3") %>
+              <%= label_tag(:option, "Neutro") %>
+            </li>
+            <li>
+              <%= radio_button_tag("survey[option][#{i.to_s}]", "4") %>
+              <%= label_tag(:option, "Discordo") %>
+            </li>
+            <li>
+              <%= radio_button_tag("survey[option][#{i.to_s}]", "5") %>
+              <%= label_tag(:option, "Discordo Totalmente") %>
+            </li>
+          </ul>
+
+
+
+
+
+
+
+          
+      <% @options_adm.each do |opt| %>
+
+      <%= @survey.option << @survey[:option][i] %>
+
+      <% end %>

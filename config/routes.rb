@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
  
+  resources :options
   resources :posts do 
     resources :comments, :only => :create
   end
@@ -14,6 +15,8 @@ Rails.application.routes.draw do
   resources :management
 
   resources :surveys
+
+  resources :options
 
 
 

@@ -1,48 +1,50 @@
 
-<%= form_for(@survey) do |f| %>
+<%= form_tag (@survey) do |f| %>
 
-<%= f.hidden_field :user_id, :value => "15" %>
-<%= @survey.question ||= [] %>
-<%= @survey.option ||= [] %>
 
+<%= hidden_field_tag :user_id, 666 %>
+
+<fieldset>
   <div class="wrap">
 
       <% @questions_adm.each_with_index do |q, i| %>
 
-          <%= @survey.question << q.id %>
-          <%= f.hidden_field :question, :multiple => true, :value => q.id %>
+      <% indexplusone = i + 1 %>
+
+      <h3><span class="label label-primary"><%= q.body %></span></h3><br />
+
+          <%= hidden_field_tag "question[#{indexplusone.to_s}]", q.id %>
 
           <div class='likert'>
            <ul> 
             <li>
-              <%= radio_button_tag("option[group_#{i.to_s}]", 1) %>
+              <%= radio_button_tag("survey[option][group_#{indexplusone.to_s}]", 1) %>
 
             </li>
             <li>
-              <%= radio_button_tag("option[group_#{i.to_s}]", 2) %>
+              <%= radio_button_tag("survey[option][group_#{indexplusone.to_s}]", 2) %>
 
             </li>
             <li>
-              <%= radio_button_tag("option[group_#{i.to_s}]", 3) %>
+              <%= radio_button_tag("survey[option][group_#{indexplusone.to_s}]", 3) %>
 
             </li>
             <li>
-              <%= radio_button_tag("option[group_#{i.to_s}]", 4) %>
+              <%= radio_button_tag("survey[option][group_#{indexplusone.to_s}]", 4) %>
 
             </li>
             <li>
-              <%= radio_button_tag("option[group_#{i.to_s}]", 5) %>
+              <%= radio_button_tag("survey[option][group_#{indexplusone.to_s}]", 5) %>
 
             </li>
           </ul>
           <br />
         </div><br /><br />
-
         <% end %>
-
+  </fieldset>
   <br />
 <div class="actions">
-  <%= f.submit 'Salvar', :class => 'btn btn-sm btn-primary'%>
+  <%= submit_tag 'Salvar', :class => 'btn btn-sm btn-primary'%>
 </div>
   <br />
 

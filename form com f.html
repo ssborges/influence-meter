@@ -1,0 +1,54 @@
+
+<%= form_for(@survey) do |f| %>
+
+
+<%= f.hidden_field :user_id, :value => "667" %>
+
+<%= @survey.question ||= [] %>
+<%= @survey.option ||= [] %>
+
+<fieldset>
+  <div class="wrap">
+
+      <% @questions_adm.each_with_index do |q, i| %>
+
+      
+
+          <%= f.hidden_field :question, :multiple => true, :value => q.id %>
+
+          <div class='likert'>
+           <%= f.label 'test' %>
+           <ul> 
+            <li>
+              <%= f.radio_button :option, :value => 1 %>1
+            </li>
+            <li>
+              <%= f.radio_button :option, :value => 2 %>2
+            </li>
+            <li>
+              <%= f.radio_button :option, :value => 3 %>3
+            </li>
+            <li>
+              <%= f.radio_button :option, :value => 4 %>4
+            </li>
+            <li>
+              <%= f.radio_button :option, :value => 5 %>5
+            </li>
+          </ul>
+
+          <br />
+        </div><br /><br />
+
+
+
+        <% end %>
+
+  </fieldset>
+
+  <br />
+<div class="actions">
+  <%= f.submit 'Salvar'%>
+</div>
+  <br />
+
+<% end %>
