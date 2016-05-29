@@ -5,8 +5,8 @@ Rails.application.routes.draw do
     resources :comments, :only => :create
   end
   
-  get "/" => "home#index"
-  post "/" => "home#index"
+  get "/" => "surveys#index"
+  post "/" => "surveys#index"
 
   resources :categories
 
@@ -24,7 +24,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'home#index'
+  root 'surveys#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

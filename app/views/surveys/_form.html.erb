@@ -10,39 +10,49 @@
       <% @questions_adm.each_with_index do |q, i| %>
 
       <% indexplusone = i + 1 %>
+      <%= hidden_field_tag "question[#{indexplusone.to_s}]", q.id %>
 
-      <h3><span class="label label-primary"><%= q.body %></span></h3><br />
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"><%= indexplusone %> - <%= q.body %></h3>
+        </div>
 
-          <%= hidden_field_tag "question[#{indexplusone.to_s}]", q.id %>
+        <div class="panel-body">
+            <div class='likert'>
+             <ul> 
+              <li>
+                <%= radio_button_tag("survey[option][group_#{indexplusone.to_s}]", 1) %>
+                <%= label_tag("option", "Concordo Totalmente") %>
 
-          <div class='likert'>
-           <ul> 
-            <li>
-              <%= radio_button_tag("survey[option][group_#{indexplusone.to_s}]", 1) %>
+              </li>
+              <li>
+                <%= radio_button_tag("survey[option][group_#{indexplusone.to_s}]", 2) %>
+                <%= label_tag("option", "Concordo") %>
 
-            </li>
-            <li>
-              <%= radio_button_tag("survey[option][group_#{indexplusone.to_s}]", 2) %>
+              </li>
+              <li>
+                <%= radio_button_tag("survey[option][group_#{indexplusone.to_s}]", 3) %>
+                <%= label_tag("option", "Indiferente") %>
 
-            </li>
-            <li>
-              <%= radio_button_tag("survey[option][group_#{indexplusone.to_s}]", 3) %>
+              </li>
+              <li>
+                <%= radio_button_tag("survey[option][group_#{indexplusone.to_s}]", 4) %>
+                <%= label_tag("option", "Discordo") %>
 
-            </li>
-            <li>
-              <%= radio_button_tag("survey[option][group_#{indexplusone.to_s}]", 4) %>
+              </li>
+              <li>
+                <%= radio_button_tag("survey[option][group_#{indexplusone.to_s}]", 5) %>
+                <%= label_tag("option", "Discordo Totalmente") %>
 
-            </li>
-            <li>
-              <%= radio_button_tag("survey[option][group_#{indexplusone.to_s}]", 5) %>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-            </li>
-          </ul>
-          <br />
-        </div><br /><br />
-        <% end %>
+     <% end %>
   </fieldset>
-  <br />
+
 <div class="actions">
   <%= submit_tag 'Salvar', :class => 'btn btn-sm btn-primary'%>
 </div>
