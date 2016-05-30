@@ -1,0 +1,9 @@
+<div id="myContent" style="background-color: #aaa; padding: 5px 10px;">
+    The content in this div will hide and show (toggle) when the toggle is pressed. 
+</div>
+
+  <nav>
+  <ul class="pager">
+    <li><a href="javascript:toggleDiv('myContent');" style="background-color: #ccc; padding: 5px 10px;">Próxima questão >></a></li>
+  </ul>
+</nav>
