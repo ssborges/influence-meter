@@ -28,7 +28,6 @@ gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
 
 #Instalando autenticacao
-gem 'omniauth'
 gem 'omniauth-facebook'
 
 #Simple_Form https://github.com/plataformatec/simple_form
