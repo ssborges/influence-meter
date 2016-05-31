@@ -122,7 +122,13 @@ FB.getLoginStatus(function(response) {
 		<div	class="container-fluid">
       
 				<div	class="navbar-header">
-					<h1>Teste de Persuasão</h1>
+					<h1>Teste de Persuasão</h1><br />
+          <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+        </fb:login-button>
+
+<div id="status">
+</div>
+
 				</div>
 		</div>
 	</div>

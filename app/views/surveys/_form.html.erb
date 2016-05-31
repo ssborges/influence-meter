@@ -13,12 +13,13 @@
       <%= hidden_field_tag "question[#{indexplusone.to_s}]", q.id %>
 
       <div class="panel panel-default">
+
         <div class="panel-heading">
           <h3 class="panel-title"><%= indexplusone %> - <%= q.body %></h3>
         </div>
 
         <div class="panel-body">
-            <div class='likert'>
+            <div class="likert">
              <ul> 
               <li>
                 <%= radio_button_tag("survey[option][group_#{indexplusone.to_s}]", 1) %>

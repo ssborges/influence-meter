@@ -5,7 +5,7 @@
 		[
 			[
 				"para",
-				"survey_params"
+				"params"
 			],
 			[
 				"optio",
@@ -76,38 +76,50 @@
 	"buffers":
 	[
 		{
-			"file": "app/controllers/surveys_controller.rb",
+			"file": "app/views/surveys/index.html.erb",
 			"settings":
 			{
-				"buffer_size": 2129,
+				"buffer_size": 969,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "Conserto do Bozo\n\n\n    options << @option[:option][:group_1]\n    options << @option[:option][:group_2]\n    options << @option[:option][:group_3]\n    options << @option[:option][:group_4]  \n\n\n    @option = Option.new\n    @option = params[:option] || []\n\n    p @option\n    puts \"hello simone\"",
-			"file": "Conserto do Bozo.txt",
-			"file_size": 192,
-			"file_write_time": 1464398087000000,
-			"settings":
-			{
-				"buffer_size": 290,
-				"line_ending": "Unix",
-				"name": "Conserto do Bozo"
 			}
 		},
 		{
 			"file": "app/views/surveys/_form.html.erb",
 			"settings":
 			{
-				"buffer_size": 1103,
+				"buffer_size": 1671,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/models/survey.rb",
+			"file": "jquery para hide div.txt",
 			"settings":
 			{
-				"buffer_size": 57,
+				"buffer_size": 340,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/simone/Downloads/rolecatupdate_issue_pg_9_5.patch",
+			"settings":
+			{
+				"buffer_size": 4646,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 2693,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/environments/production.rb",
+			"settings":
+			{
+				"buffer_size": 3371,
 				"line_ending": "Unix"
 			}
 		}
@@ -115,9 +127,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 180.0,
 		"selected_items":
 		[
+			[
+				"Snippet: lor",
+				"Snippet: Lorem ipsum"
+			],
 			[
 				"Snippet: ",
 				"Snippet: Lorem ipsum"
@@ -140,17 +156,33 @@
 	},
 	"file_history":
 	[
+		"/home/simone/projects/blooming-tor-93225/app/views/layouts/application.html.erb",
+		"/home/simone/projects/blooming-tor-93225/app/views/surveys/_form.html.erb",
+		"/home/simone/projects/blooming-tor-93225/config/routes.rb",
+		"/home/simone/projects/blooming-tor-93225/Gemfile",
+		"/home/simone/projects/blooming-tor-93225/config/initializers/omniauth.rb",
+		"/home/simone/projects/blooming-tor-93225/app/views/surveys/new.html.erb",
+		"/home/simone/projects/blooming-tor-93225/app/views/categories/index.html.erb",
+		"/home/simone/projects/blooming-tor-93225/app/views/surveys/index.html.erb",
+		"/home/simone/projects/blooming-tor-93225/app/views/surveys/backup as pag originais.txt",
+		"/home/simone/projects/blooming-tor-93225/app/views/home/index.html.erb",
+		"/home/simone/projects/blooming-tor-93225/app/views/questions/index.html.erb",
+		"/home/simone/projects/blooming-tor-93225/app/controllers/options_controller.rb",
+		"/home/simone/projects/blooming-tor-93225/app/controllers/categories_controller.rb",
+		"/home/simone/projects/blooming-tor-93225/app/views/surveys/answer.html.erb",
+		"/home/simone/projects/blooming-tor-93225/Conserto do Bozo.txt",
+		"/home/simone/projects/blooming-tor-93225/form com f.html",
+		"/home/simone/projects/blooming-tor-93225/form com f.txt",
+		"/home/simone/projects/Untitled Document.txt",
+		"/home/simone/projects/blooming-tor-93225/app/controllers/surveys_controller.rb",
+		"/home/simone/projects/blooming-tor-93225/app/models/survey.rb",
+		"/home/simone/projects/blooming-tor-93225/backup view teste",
+		"/home/simone/projects/blooming-tor-93225/app/models/option.rb",
 		"/home/simone/projects/blooming-tor-93225/app/controllers/posts_controller.rb",
 		"/home/simone/projects/blooming-tor-93225/app/models/question.rb",
 		"/home/simone/projects/blooming-tor-93225/db/migrate/20160526232611_create_options.rb",
 		"/home/simone/projects/blooming-tor-93225/app/controllers/option_controller.rb",
-		"/home/simone/projects/blooming-tor-93225/config/routes.rb",
-		"/home/simone/projects/blooming-tor-93225/app/views/surveys/_form.html.erb",
-		"/home/simone/projects/blooming-tor-93225/app/views/layouts/application.html.erb",
-		"/home/simone/projects/blooming-tor-93225/app/models/option.rb",
-		"/home/simone/projects/blooming-tor-93225/app/controllers/surveys_controller.rb",
 		"/home/simone/projects/untitled",
-		"/home/simone/projects/blooming-tor-93225/backup view teste",
 		"/home/simone/projects/blooming-tor-93225/db/migrate/20160527131750_remove_question_id_from_options.rb",
 		"/home/simone/projects/javascript que le valor do button.txt",
 		"/home/simone/projects/blooming-tor-93225/app/views/foo/bar.html.erb",
@@ -159,15 +191,12 @@
 		"/home/simone/projects/blooming-tor-93225/app/controllers/foo_controller.rb",
 		"/home/simone/projects/untitled.rhtml",
 		"/home/simone/projects/blooming-tor-93225/app/views/surveys/show.html.erb",
-		"/home/simone/projects/blooming-tor-93225/app/views/surveys/index.html.erb",
-		"/home/simone/projects/blooming-tor-93225/app/models/survey.rb",
 		"/home/simone/projects/blooming-tor-93225/db/migrate/20160526115043_add_question_to_surveys.rb",
 		"/home/simone/projects/blooming-tor-93225/db/migrate/20160526131614_add_question_to_surveys.rb",
 		"/home/simone/projects/blooming-tor-93225/app/views/posts/_form.html.erb",
 		"/home/simone/projects/blooming-tor-93225/db/migrate/20160526131121_add_option_to_surveys.rb",
 		"/home/simone/projects/blooming-tor-93225/db/migrate/20160524001418_create_surveys.rb",
 		"/home/simone/projects/blooming-tor-93225/db/migrate/20160526113405_alter_column_surveys_question.rb",
-		"/home/simone/projects/blooming-tor-93225/app/views/questions/index.html.erb",
 		"/home/simone/projects/blooming-tor-93225/app/views/posts/index.html.erb",
 		"/home/simone/projects/blooming-tor-93225/app/views/posts/show.html.erb",
 		"/home/simone/projects/blooming-tor-93225/app/views/questions/_form.html.erb",
@@ -201,10 +230,7 @@
 		"/home/simone/projects/blooming-tor-93225/lista_pergutnas.txt",
 		"/home/simone/projects/blooming-tor-93225/app/models/answer.rb",
 		"/home/simone/projects/blooming-tor-93225/app/models/user.rb",
-		"/home/simone/projects/blooming-tor-93225/Gemfile",
-		"/home/simone/projects/blooming-tor-93225/app/views/surveys/new.html.erb",
 		"/home/simone/projects/blooming-tor-93225/app/views/questions/new.html.erb",
-		"/home/simone/projects/blooming-tor-93225/app/views/home/index.html.erb",
 		"/home/simone/projects/blooming-tor-93225/app/views/management/index.html.erb",
 		"/home/simone/projects/blooming-tor-93225/app/views/questions/answering.html.erb",
 		"/home/simone/projects/blooming-tor-93225/app/controllers/management_controller.rb",
@@ -223,7 +249,6 @@
 		"/home/simone/projects/blooming-tor-93225/app/models/participant.rb",
 		"/home/simone/projects/blooming-tor-93225/app/controllers/application_controller.rb",
 		"/home/simone/projects/blooming-tor-93225/db/migrate/20160509201630_create_categories.rb",
-		"/home/simone/projects/blooming-tor-93225/app/controllers/categories_controller.rb",
 		"/home/simone/projects/blooming-tor-93225/app/models/questionnaire.rb",
 		"/home/simone/projects/blooming-tor-93225/test/fixtures/questionnaires.yml",
 		"/home/simone/projects/blooming-tor-93225/app/controllers/home_controller.rb",
@@ -234,7 +259,6 @@
 		"/home/simone/projects/blooming-tor-93225/app/views/quiz/results.html.erb",
 		"/home/simone/projects/blooming-tor-93225/app/helpers/quiz_helper.rb",
 		"/home/simone/projects/view provisoria quiz.txt",
-		"/home/simone/projects/blooming-tor-93225/app/views/categories/index.html.erb",
 		"/home/simone/projects/blooming-tor-93225/config/application.rb",
 		"/home/simone/projects/blooming-tor-93225/app/views/home/management.html.erb",
 		"/home/simone/projects/persuasion_app/app/controllers/categories_controller.rb",
@@ -259,15 +283,7 @@
 		"/home/simone/projects/persuasion_app/app/models/user.rb",
 		"/home/simone/projects/Temp/fb-canvas-rails-master/config/routes.rb",
 		"/home/simone/projects/persuasion_app/config/initializers/omniauth.rb",
-		"/home/simone/projects/persuasion_app/app/controllers/sessions_controller.rb",
-		"/home/simone/Documents/Questionario/temp code.txt",
-		"/home/simone/projects/persuasion_app/config/initializers/session_store.rb",
-		"/home/simone/projects/persuasion_app/Gemfile",
-		"/home/simone/projects/persuasion_app/app/models/question.rb",
-		"/home/simone/projects/persuasion_app/app/models/answer.rb",
-		"/home/simone/projects/persuasion_app/db/migrate/20160516140709_create_users.rb",
-		"/home/simone/projects/persuasion_app/app/models/survey.rb",
-		"/home/simone/projects/persuasion_app/app/models/answered_survey.rb"
+		"/home/simone/projects/persuasion_app/app/controllers/sessions_controller.rb"
 	],
 	"find":
 	{
@@ -332,77 +348,49 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/controllers/surveys_controller.rb",
+					"file": "app/views/surveys/index.html.erb",
 					"settings":
 					{
-						"buffer_size": 2129,
+						"buffer_size": 969,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								501,
-								501
+								199,
+								199
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 276.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "Conserto do Bozo.txt",
-					"settings":
-					{
-						"buffer_size": 290,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								19,
-								19
-							]
-						],
-						"settings":
-						{
-							"auto_name": "Conserto do Bozo",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "app/views/surveys/_form.html.erb",
 					"settings":
 					{
-						"buffer_size": 1103,
+						"buffer_size": 1671,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								572,
-								572
+								1556,
+								1556
 							]
 						],
 						"settings":
@@ -412,6 +400,32 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
+						"translation.y": 1035.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "jquery para hide div.txt",
+					"settings":
+					{
+						"buffer_size": 340,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								340,
+								340
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -419,26 +433,82 @@
 				},
 				{
 					"buffer": 3,
-					"file": "app/models/survey.rb",
+					"file": "/home/simone/Downloads/rolecatupdate_issue_pg_9_5.patch",
 					"settings":
 					{
-						"buffer_size": 57,
+						"buffer_size": 4646,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								57,
-								57
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Diff/Diff.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 54.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/views/layouts/application.html.erb",
+					"settings":
+					{
+						"buffer_size": 2693,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2662,
+								2662
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2415.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "config/environments/production.rb",
+					"settings":
+					{
+						"buffer_size": 3371,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3366,
+								3366
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1242.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
