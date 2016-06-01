@@ -1,3 +1,11 @@
+    <script src="jquery.js"></script>
+    <script>
+ 
+    $( document ).ready(function() {
+        $("#myContent").children().hide();
+        $("#myQuestion_1").show();
+    });
+    </script>
 
 <%= form_tag (@survey) do |f| %>
 
@@ -5,14 +13,14 @@
 <%= hidden_field_tag :user_id, 777 %>
 
 <fieldset>
-  <div class="wrap">
+  <div class="wrap" id="myContent" >
 
       <% @questions_adm.each_with_index do |q, i| %>
 
       <% indexplusone = i + 1 %>
       <%= hidden_field_tag "question[#{indexplusone.to_s}]", q.id %>
 
-      <div class="panel panel-default">
+      <div id="myQuestion_<%= indexplusone.to_s %>" class="panel panel-default">
 
         <div class="panel-heading">
           <h3 class="panel-title"><%= indexplusone %> - <%= q.body %></h3>
@@ -53,7 +61,6 @@
 
      <% end %>
   </fieldset>
-
 
 
 <div class="actions">
