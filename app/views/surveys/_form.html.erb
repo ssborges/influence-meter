@@ -3,8 +3,24 @@
  
     $( document ).ready(function() {
         $("#myContent").children().hide();
+        $("#btn-save-form").children().hide();
         $("#myQuestion_1").show();
     });
+
+
+    $(function(){
+      var c = 1;
+        $('#btn').click(function() {
+            c = c + 1;
+            $("#myContent").children().hide();
+            $('#myQuestion_' + c).show();
+            if (c == 32) {
+              $("#btn-save-form").children().show();
+            }
+        });
+    });
+
+
     </script>
 
 <%= form_tag (@survey) do |f| %>
@@ -63,8 +79,14 @@
   </fieldset>
 
 
-<div class="actions">
-  <%= submit_tag 'Salvar', :class => 'btn btn-sm btn-primary'%>
+      <div style="text-align:center" >
+        <input id="btn" type="button" class="btn btn-sm btn-primary" value="Próxima questão >>" />
+    </div>
+
+
+<div class="actions" id="btn-save-form" style="text-align:right"  >
+  <br /><br />
+  <%= submit_tag 'Conferir meu resultado', :class => 'btn btn-sm btn-primary'%>
 </div>
   <br />
 
